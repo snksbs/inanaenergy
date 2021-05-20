@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/InanaLogo.png" type="image/png">
+    <title>Inana Energy Projects Co Ltd.</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="top_menu row m0">
+            <div class="container">
+                <div class="float-left" style="margin-left: 3%;">
+                    <ul class="list header_social">
+                        <li><a href="https://www.facebook.com/Inana-Energy-Projects-CO-2072925912987603/"><i class="fa fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+                <div class="float-right">
+                    <select class="lan_pack">
+							<option value="1">English</option>
+							<option value="1">Aus</option>
+						</select>
+                    <a class="dn_btn" href="contact.html">Message Us!</a>
+                </div>
+            </div>
+        </div>
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><img src="img/InanaLogo.png" style="margin-right: 15%;width: 200px;height: 90px;" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="company-structure.html">Company structure</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="completedProjects.html">Completed Projects</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="onGoingProjects.html">Projects in Progress</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--================Header Menu Area =================-->
+
+    <!--================Home Banner Area =================-->
+    <section class="home_banner_area" id="temp1">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+            <div class="container">
+                <div class="banner_content text-center" style="margin-bottom: 10%;">
+                    <!-- <h3>Build Your <span>Dream</span></h3> -->
+                    <h3><span id="inanatxt">Inana</span> Energy Projects</h3>
+                    <h2></h2>
+                    <p id="maintxt">Inana Energy Projects (IEP) is an Engineering company established in 2004 in Iraq to provide complete
+                        solutions in Energy Projects and Electrical fields including contracting, Sales, Services and Turnkey
+                        projects.</p>
+                    <a class="black_btn" href="company-structure.html">Discover Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================End Home Banner Area =================-->
+    <script>
+        backGroundSlider();
+
+        function backGroundSlider() {
+            setTimeout(function() {
+                $(".home_banner_area .banner_inner .overlay").fadeOut("slow", function() {
+                    $(".home_banner_area .banner_inner .overlay").css({
+                        'background-image': "url('img/banner/bg-gulf.jpg')"
+                    });
+                    $(".home_banner_area .banner_inner .overlay").fadeIn("fast");
+                });
+            }, 5000);
+            setTimeout(function() {
+                $(".home_banner_area .banner_inner .overlay").fadeOut("fast", function() {
+                    $(".home_banner_area .banner_inner .overlay").css({
+                        'background-image': "url('img/banner/bg-nasa.jpg')"
+                    });
+                    $(".home_banner_area .banner_inner .overlay").fadeIn("fast");
+                });
+            }, 10000);
+            setTimeout(function() {
+                $(".home_banner_area .banner_inner .overlay").fadeOut("fast", function() {
+                    $(".home_banner_area .banner_inner .overlay").css({
+                        'background-image': "url('img/banner/bg-Sky.jpg')"
+                    });
+                    $(".home_banner_area .banner_inner .overlay").fadeIn("fast");
+                });
+            }, 15000);
+            setTimeout(function() {
+                $(".home_banner_area .banner_inner .overlay").fadeOut("fast", function() {
+                    $(".home_banner_area .banner_inner .overlay").css({
+                        'background-image': "url('img/banner/home-banner.jpg')"
+                    });
+                    $(".home_banner_area .banner_inner .overlay").fadeIn("fast");
+                });
+            }, 20000);
+        }
+
+        //apply setInterval function
+        setInterval(function() {
+            backGroundSlider();
+        }, 25000);
+    </script>
+
+    <!--================Builder Image Area =================-->
+    <section class="builder_area">
+        <div class="main_title">
+            <br>
+            <br>
+            <br>
+            <h2>We Are Proud To Be Partnered With</h2>
+            <!-- <p>Who are in extremely love with our eco friendly system.</p> -->
+        </div>
+        <div class="row m0 builder_inner">
+            <div class="builder_item">
+                <img src="img/builder/SCHNEIDER-ELECTRIC-logo_.png" alt="">
+                <div class="hover">
+                    <h4>Schneider Electric</h4>
+                    <p>Inana Energy Projects is an official Agent of Schneider Electric (France) in Iraq for LV. Equipments.</p>
+                </div>
+            </div>
+            <div class="builder_item">
+                <img src="img/builder/Leroy-Somer-Logo_.jpg" lt="">
+                <div class="hover">
+                    <h4>Leroy Somer</h4>
+                    <p>INANA Energy Projects is an official Agent of Leroy-Somer (France) in Iraq for Motors, Alternators, Soft starters, DC & AC Drives.</p>
+                </div>
+            </div>
+            <div class="builder_item">
+                <img src="img/builder/Legrand-Red-PNG_.png" alt="">
+                <div class="hover">
+                    <h4>Legrand Electric</h4>
+                    <p>Inana Energy Projects is a dealer of Legrand Electric (France) equipments and accessories.</p>
+                </div>
+            </div>
+            <div class="builder_item">
+                <img src="img/builder/Electromatic_Logo_.gif"  lt="">
+                <div class="hover">
+                    <h4>Electromatic Constructions</h4>
+                    <p>Inana Energy Projects is a dealer for Electromatic Constructions Ltd. (Cyprus) for integrated solutions. And a panel builder.</p>
+                </div>
+            </div>
+            <div class="builder_item">
+                <img src="img/builder/katko-logo_.png" alt="">
+                <div class="hover">
+                    <h4>KATKO Company</h4>
+                    <p>Inana Energy Projects is an official Agent of KATKO Company (Finland) for Electrical switches and electrical accessories.</p>
+                </div>
+            </div>
+            <div class="builder_item">
+                <img src="img/builder/elpa-logo_.png" alt="">
+                <div class="hover">
+                    <h4>ELPA Company</h4>
+                    <p>INANA Energy Projects (IEP) is a Dealer for ELPA Company (Turkey) for manufacturing Electrical panels.</p>
+                </div>
+            </div>
+            
+            <!-- <div class="builder_item">
+                    <img src="img/builder/builder-5.jpg" alt="">
+                    <div class="hover">
+                        <h4>Alex Complex for Residence</h4>
+                        <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer.</p>
+                    </div>
+                </div>
+                <div class="builder_item">
+                    <img src="img/builder/builder-6.jpg" alt="">
+                    <div class="hover">
+                        <h4>Alex Complex for Residence</h4>
+                        <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer.</p>
+                    </div>
+                </div> -->
+        </div>
+    </section>
+    <!--================End Builder Image Area =================-->
+
+    <!--================Team Area =================-->
+    <!-- <section class="team_area p_120">
+        <div class="container">
+            <div class="main_title">
+                <h2>Meet Our Expert Members</h2>
+                <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+            <div class="row team_inner">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team_item">
+                        <div class="team_img">
+                            <img class="img-fluid" src="img/team/team-1.jpg" alt="">
+                            <div class="hover">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="team_name">
+                            <h4>M.Abdurrehman</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team_item">
+                        <div class="team_img">
+                            <img class="img-fluid" src="img/team/team-2.jpg" alt="">
+                            <div class="hover">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="team_name">
+                            <h4>Ethel Davis</h4>
+                            <p>Managing Director (Sales)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team_item">
+                        <div class="team_img">
+                            <img class="img-fluid" src="img/team/team-3.jpg" alt="">
+                            <div class="hover">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="team_name">
+                            <h4>Ethel Davis</h4>
+                            <p>Managing Director (Sales)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team_item">
+                        <div class="team_img">
+                            <img class="img-fluid" src="img/team/team-4.jpg" alt="">
+                            <div class="hover">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="team_name">
+                            <h4>Ethel Davis</h4>
+                            <p>Managing Director (Sales)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--================End Team Area =================-->
+
+    <!--================Counter Area =================-->
+    <!-- <section class="counter_area">
+        <div class="container">
+            <div class="row m0 counter_inner">
+                <div class="counter_item">
+                    <h4 class="counter">200</h4>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="counter_item">
+                    <h4 class="counter">190</h4>
+                    <p>Really Happy Clients</p>
+                </div>
+                <div class="counter_item">
+                    <h4 class="counter">5962</h4>
+                    <p>Total Tasks Completed</p>
+                </div>
+                <div class="counter_item">
+                    <h4 class="counter">1009</h4>
+                    <p>Cups of Coffee Taken</p>
+                </div>
+                <div class="counter_item">
+                    <h4 class="counter">50</h4>
+                    <p>In House Professionals</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--================End Counter Area =================-->
+
+    <!--================Feature Area =================-->
+    <section class="feature_area p_120">
+        <div class="container">
+            <div class="main_title">
+                <h2>Skills & Expertise</h2>
+                <p>To cover the requirements for projects implementation (IEP) has teams whom are proficient to perform the work activities in Electrical, Mechanical, and related Civil. (IEP) investing a lot for training its teams for many activities such
+                    as:
+                </p>
+            </div>
+
+            <div class="row feature_inner">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature_item">
+                        <h4><i class="lnr lnr-rocket"></i>BEST Transformer</h4>
+                        <p>BEST Transformer (Turkey) for assembling, Testing and commissioning of Power Transformer.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature_item">
+                        <h4><i class="lnr lnr-rocket"></i>GE (Jordan)</h4>
+                        <p>GE (Jordan) for Installation, programming and commissioning of Protection relays.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature_item">
+                        <h4><i class="lnr lnr-rocket"></i>Turbo Care</h4>
+                        <p>Turbo Care (Italy) for Installation, Commissioning and Start up of Electrical and Control system for Turbo generators.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature_item">
+                        <h4><i class="lnr lnr-rocket"></i>Schneider Electric</h4>
+                        <p>Schneider Electric (France) for (medium voltage equipments and RTU).</p>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="feature_item">
+                        <h4><i class="lnr lnr-user"></i>Expert Technicians</h4>
+                        <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature_item">
+                        <h4><i class="lnr lnr-license"></i>Professional Service</h4>
+                        <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!--================End Feature Area =================-->
+
+    <!--================Clients Logo Area =================-->
+    <!-- <section class="clients_logo_area p_120">
+        <div class="container">
+            <div class="clients_slider owl-carousel">
+                <div class="item">
+                    <img src="img/clients-logo/c-logo-1.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/clients-logo/c-logo-2.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/clients-logo/c-logo-3.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/clients-logo/c-logo-4.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/clients-logo/c-logo-5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--================End Clients Logo Area =================-->
+
+    <!--================ start footer Area  =================-->
+    <footer class="footer-area p_120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget ab_wd">
+                        <h6 class="footer_title">About Us</h6>
+                        <p>INANA is an engineering company established in 2004 for providing services in the fields of Power generation, transmission, and distribution, among others regarding electrical engineering.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget contact_wd">
+                        <h6 class="footer_title">Contact Us</h6>
+                        <p>Iraq - Baghdad Karada Al-Huria Circle- Al Hariri Bldg. Ground Floor</p>
+                        <a href="tel:+96417781323">+ 964 1 778 1323</a>
+                        <a href="tel:+9647901799890">+964 7901 799 890</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="single-footer-widget">
+                        <h6 class="footer_title">Newsletter</h6>
+                        <p>You can trust us. we only send promo offers, not a single spam.</p>
+                        <div id="mc_embed_signup">
+                            <form target="_blank" action="#" method="get" class="subscribe_form relative">
+                                <div class="input-group d-flex flex-row">
+                                    <input name="EMAIL" placeholder="Your email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                    <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+                                </div>
+                                <div class="mt-10 info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                <p class="col-lg-8 col-md-8 footer-text m-0">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+                <div class="col-lg-4 col-md-4 footer-social">
+                    <a href="https://www.facebook.com/Inana-Energy-Projects-CO-2072925912987603/"><i class="fa fa-facebook"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
